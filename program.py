@@ -1,0 +1,38 @@
+def add (a,b):
+    return a+b
+def sub(c,d):
+    return c-d
+def mul(e,f):
+    return e*f
+def div(g,h):
+    return g/h
+print("==================")
+print("1.To perform addition")
+print("2.To perfrom subtraction")
+print("3.To perform multiplication")
+print("4.To perform division")
+print("5.Exit")
+print("============")
+while(1):
+    choice=int(input("enter your choice"))
+    if choice==1:
+        a=int(input("enter 1st value"))
+        b=int(input("enter 2nd value"))
+        print(add(a,b))
+    elif choice==2:
+        c=int(input("enter 1st value"))
+        d=int(input("enter 2nd value"))
+        print(sub(c,d))
+    elif choice==3:
+        e=int(input("enter 1st value"))
+        f=int(input("enter 2nd value"))
+        print(mul(e,f))
+    elif choice==4:
+        g=int(input("enter 1st value"))
+        h=int(input("enter 2nd value"))
+        print(div(g,h))
+    elif choice==5:
+        print("Exited")
+        break
+    else:
+        print("wrong choice")
